@@ -1,0 +1,61 @@
+body{
+    direction: rtl;
+    font-family: 'Shabnam';
+}
+@font-face {
+    font-family: 'Shabnam';
+    src: url(./fonts/Shabnam-Medium.woff2);
+}
+.icons{
+    display: flex;
+    margin-right: 1250px;
+    margin-bottom: 100px;
+    margin-top:30px;
+    
+}
+.lock-img{
+    width: 25px;
+}
+.number{
+    font-size: 10px;
+    position: relative;
+    bottom: 25px;
+}
+
+.light-dark{
+    margin-right: 30px;
+}
+.moon-img{
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 20px;
+    
+    
+}
+.main{
+    width: 800px;
+    margin-right: 380px;
+}
+h1{
+    margin-right: 220px;
+}
+.titles{
+    display: flex;
+    justify-content: space-between;
+}
+.remove-all{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.dark-theme {
+    background-color: #333; /* یا هر رنگ دیگری که میخواهید برای بک گراند تیره استفاده کنید */
+    color: #fff; /* تغییر رنگ متن برای دید بهتر در بک گراند تیره */
+    }
+.product-list{
+    padding: 0;
+}
+
